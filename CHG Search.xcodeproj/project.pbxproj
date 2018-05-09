@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		08DA045C209AB22E0003038B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA045B209AB22E0003038B /* AppDelegate.swift */; };
-		08DA045E209AB22E0003038B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA045D209AB22E0003038B /* ViewController.swift */; };
 		08DA0461209AB22E0003038B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DA045F209AB22E0003038B /* Main.storyboard */; };
 		08DA0463209AB2310003038B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08DA0462209AB2310003038B /* Assets.xcassets */; };
 		08DA0466209AB2310003038B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08DA0464209AB2310003038B /* LaunchScreen.storyboard */; };
+		08DA046E209AB3470003038B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DA046D209AB3470003038B /* ViewController.swift */; };
+		08EE0179209E2ADE004602B7 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EE0178209E2ADE004602B7 /* Downloader.swift */; };
+		1390DC19ABBC4AFD5BF8D025 /* Pods_CHG_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9746B7356AF1E34431F52EB /* Pods_CHG_Search.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08DA0458209AB22E0003038B /* CHG Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CHG Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08DA045B209AB22E0003038B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08DA045D209AB22E0003038B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08DA0460209AB22E0003038B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08DA0462209AB2310003038B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08DA0465209AB2310003038B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08DA0467209AB2310003038B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08DA046D209AB3470003038B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08EE0178209E2ADE004602B7 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		490956F9F4C5DE7F7C12A453 /* Pods-CHG Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHG Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHG Search/Pods-CHG Search.release.xcconfig"; sourceTree = "<group>"; };
+		5E8B607014627C6FCDD0EE51 /* Pods-CHG Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHG Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHG Search/Pods-CHG Search.debug.xcconfig"; sourceTree = "<group>"; };
+		C9746B7356AF1E34431F52EB /* Pods_CHG_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHG_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1390DC19ABBC4AFD5BF8D025 /* Pods_CHG_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				08DA045A209AB22E0003038B /* CHG Search */,
 				08DA0459209AB22E0003038B /* Products */,
+				4C38A668B08AC8CCDA941D1B /* Pods */,
+				7F11B323706E83EFF6FA2F5A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +64,31 @@
 			isa = PBXGroup;
 			children = (
 				08DA045B209AB22E0003038B /* AppDelegate.swift */,
-				08DA045D209AB22E0003038B /* ViewController.swift */,
+				08DA046D209AB3470003038B /* ViewController.swift */,
 				08DA045F209AB22E0003038B /* Main.storyboard */,
 				08DA0462209AB2310003038B /* Assets.xcassets */,
 				08DA0464209AB2310003038B /* LaunchScreen.storyboard */,
 				08DA0467209AB2310003038B /* Info.plist */,
+				08EE0178209E2ADE004602B7 /* Downloader.swift */,
 			);
 			path = "CHG Search";
+			sourceTree = "<group>";
+		};
+		4C38A668B08AC8CCDA941D1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E8B607014627C6FCDD0EE51 /* Pods-CHG Search.debug.xcconfig */,
+				490956F9F4C5DE7F7C12A453 /* Pods-CHG Search.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F11B323706E83EFF6FA2F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9746B7356AF1E34431F52EB /* Pods_CHG_Search.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08DA046A209AB2310003038B /* Build configuration list for PBXNativeTarget "CHG Search" */;
 			buildPhases = (
+				592A8843EEB8FDC0CC4F4254 /* [CP] Check Pods Manifest.lock */,
 				08DA0454209AB22E0003038B /* Sources */,
 				08DA0455209AB22E0003038B /* Frameworks */,
 				08DA0456209AB22E0003038B /* Resources */,
+				6262E73A3F4013F087CCA388 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		592A8843EEB8FDC0CC4F4254 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHG Search-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6262E73A3F4013F087CCA388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CHG Search/Pods-CHG Search-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHG Search/Pods-CHG Search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08DA0454209AB22E0003038B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08DA045E209AB22E0003038B /* ViewController.swift in Sources */,
+				08DA046E209AB3470003038B /* ViewController.swift in Sources */,
+				08EE0179209E2ADE004602B7 /* Downloader.swift in Sources */,
 				08DA045C209AB22E0003038B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,11 +351,13 @@
 		};
 		08DA046B209AB2310003038B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8B607014627C6FCDD0EE51 /* Pods-CHG Search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BBJD87GN28;
+				DEVELOPMENT_TEAM = E4PA39JM22;
 				INFOPLIST_FILE = "CHG Search/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +371,13 @@
 		};
 		08DA046C209AB2310003038B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490956F9F4C5DE7F7C12A453 /* Pods-CHG Search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BBJD87GN28;
+				DEVELOPMENT_TEAM = E4PA39JM22;
 				INFOPLIST_FILE = "CHG Search/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
